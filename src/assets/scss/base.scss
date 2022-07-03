@@ -1,0 +1,12 @@
+body,
+html {
+  // line-height 属性值是数字的话，它会默认乘以该元素的字体大小;
+  line-height: 1;
+  // user-select 控制用户能否选中文本。
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial,
+    sans-serif, 'Droid Sans Fallback';
+  background: $color-background;
+  color: $color-text;
+}
